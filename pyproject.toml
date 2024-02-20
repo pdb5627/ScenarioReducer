@@ -4,7 +4,7 @@ build-backend="flit_core.buildapi"
 
 [project]
 name="ScenarioReducer"
-version="1.0.0"
+dynamic = ["version"]
 authors=[
     {name="Daniele Giovani Gioia", email="daniele.gioia@polito.it"},
 ]
@@ -34,10 +34,17 @@ classifiers=[
 dependencies=[
     "scipy",
     "numpy",
-    "statsmodels",
     "numba",
+]
+
+[project.optional-dependencies]
+test = [
+    "statsmodels",
     "pytest",
 ]
+
+[tool.flit.module]
+name = "scenarioReducer"
 
 [project.urls]
 repository="https://github.com/DanieleGioia/ScenarioReducer/blob/main/README.md"

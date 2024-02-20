@@ -1,7 +1,7 @@
 from .fast_forward import Fast_forward
 from .scenario_reducer import Scenario_reducer
 
-__version__ = "0.1.0"
+__version__ = "1.0.1"
 __author__ = "Daniele Giovanni Gioia, pdb5627"
 
 
