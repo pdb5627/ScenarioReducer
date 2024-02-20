@@ -43,10 +43,6 @@ test = [
     "pytest",
 ]
 
-[tool.flit.module]
-name = "scenarioReducer"
-
 [project.urls]
 repository="https://github.com/DanieleGioia/ScenarioReducer/blob/main/README.md"
 changelog="https://github.com/DanieleGioia/ScenarioReducer/blob/main/CHANGELOG.md"
-
